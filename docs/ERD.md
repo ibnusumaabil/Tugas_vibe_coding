@@ -1,0 +1,2 @@
+# ERD konseptual
+Entitas utama: users, books, categories, authors, publishers, suppliers, customers, sales, sale_items, orders, order_items, purchases, stock_movements, returns, payments, settings. Relasi konsep: kategori memiliki banyak buku; buku direferensikan oleh item penjualan/pesanan/pembelian/mutasi stok; pelanggan memiliki banyak pesanan dan penjualan; supplier memiliki banyak pembelian.

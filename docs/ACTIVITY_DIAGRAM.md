@@ -1,0 +1,2 @@
+# Activity Diagram
+```mermaid\nflowchart TD\nA[Mulai] --> B[Lihat katalog]\nB --> C[Pilih buku]\nC --> D[Tambah ke keranjang]\nD --> E{Stok cukup?}\nE -- Tidak --> C\nE -- Ya --> F[Checkout]\nF --> G[Validasi data]\nG --> H[Simpan pesanan dan mutasi stok]\nH --> I[Tampilkan nomor pesanan]\nI --> J[Selesai]\n```

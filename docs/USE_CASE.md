@@ -1,0 +1,2 @@
+# Use Case
+Aktor: Super Admin, Admin Toko, Kasir, Petugas Gudang, Manager, Pelanggan. Use case: kelola buku, lihat katalog, kelola keranjang, checkout, transaksi kasir, kelola pesanan, mutasi inventaris, laporan, pengaturan. Role pada aplikasi ini merupakan simulasi pembatasan UI.

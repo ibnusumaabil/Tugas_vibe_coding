@@ -1,0 +1,2 @@
+# Class Diagram (konseptual)
+```mermaid\nclassDiagram\nclass Book {id sku isbn title price stock}\nclass Customer {id name email phone}\nclass Order {id number date status total}\nclass Sale {id date total paymentMethod}\nclass StockMovement {id bookId type before after date}\nBook --> StockMovement\nCustomer --> Order\nOrder --> Book\nSale --> Book\n```

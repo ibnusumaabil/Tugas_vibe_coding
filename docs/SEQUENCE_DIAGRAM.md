@@ -1,0 +1,2 @@
+# Sequence Diagram
+```mermaid\nsequenceDiagram\nactor Pelanggan\nparticipant UI\nparticipant IndexedDB\nPelanggan->>UI: Checkout\nUI->>IndexedDB: Baca stok\nIndexedDB-->>UI: Data stok\nUI->>IndexedDB: Simpan pesanan dan stok\nIndexedDB-->>UI: Berhasil\nUI-->>Pelanggan: Konfirmasi pesanan\n```
